@@ -135,7 +135,6 @@ async def test_get_kittens_by_breed():
             headers={"Authorization": f"Bearer {TOKEN}"}
         )
 
-        # Получаем котят по породе
         response = await client.get(
             f"/kittens/breed/{breed_id}",
             headers={"Authorization": f"Bearer {TOKEN}"}
