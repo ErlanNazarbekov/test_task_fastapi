@@ -31,7 +31,7 @@
     python -m pip install --upgrade pip
     pip install -r requirements.txt
     ```
-4. **Создайте файл .env в корне проекта с таким содержимым:**
+4. **Создайте файл .env в корне проекта, например, с таким содержимым:**
    ```
    APP_TITLE=Service for the administrator of the online exhibition of kittens
    DATABASE_URL=sqlite+aiosqlite:///./fastapi.db
