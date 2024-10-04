@@ -39,11 +39,15 @@
    FIRST_SUPERUSER_EMAIL=superuser@example.com
    FIRST_SUPERUSER_PASSWORD=superuser1
    ```
-5. Запустите проект:
+5. **Примените миграции**
+   ```
+   alembic upgrade head
+   ```
+6. Запустите проект:
     ```
     uvicorn app.main:app --reload 
     ```
-6. Зарегистрируйтесь как суперюзер используя данные:
+7. Зарегистрируйтесь как суперюзер используя данные:
    ```
    username: superuser@example.com
    password: superuser1
