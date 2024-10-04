@@ -9,7 +9,7 @@ from app.schemas.kitten import KittenCreate, KittenDB, KittenUpdate
 from app.schemas.breed import BreedCreate, BreedDB
 from app.core.db import get_async_session
 
-TOKEN = ""
+TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1IiwiYXVkIjpbImZhc3RhcGktdXNlcnM6YXV0aCJdLCJleHAiOjE3MjgwMzAzNzd9.GqMs6LWJFQ2FnOWgiIS7etE_XTzH4Jlf3xz--kqeVfQ"
 
 
 @pytest.mark.asyncio
